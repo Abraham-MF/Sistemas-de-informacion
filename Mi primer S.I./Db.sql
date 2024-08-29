@@ -1,6 +1,6 @@
-drop schema if exists `proyecto_web_1`;
+drop schema if exists `sistema_informacion`;
 
-create schema if not exists `proyecto_web_1` default character set utf8 collate utf8_sapanish_ci;
+create schema if not exists `sistema_informacion` default character set utf8 collate utf8_sapanish_ci;
 
 CREATE TABLE `persona`(
     id int not null AUTO_INCREMENT,
